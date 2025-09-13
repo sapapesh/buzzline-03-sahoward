@@ -1,0 +1,121 @@
+2025-09-09 22:09:24 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:24.384231', 'temperature': 142.0}
+2025-09-09 22:09:24 | INFO | Rolling window size: 10
+2025-09-09 22:09:24 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:24 | INFO | STALL DETECTED at 2025-09-10T03:09:24.384231: Temp stable at 142.0°F over last 10 readings.
+2025-09-09 22:09:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-09 22:09:24 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Diana'}
+2025-09-09 22:09:24 | INFO | Message received from author: Diana
+2025-09-09 22:09:24 | INFO | Updated author counts: {'Eve': 382, 'Alice': 546, 'Charlie': 337, 'Diana': 612, 'Bob': 386}
+2025-09-09 22:09:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-09 22:09:25 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Bob'}
+2025-09-09 22:09:25 | INFO | Message received from author: Bob
+2025-09-09 22:09:25 | INFO | Updated author counts: {'Eve': 382, 'Alice': 546, 'Charlie': 337, 'Diana': 612, 'Bob': 387}
+2025-09-09 22:09:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-09 22:09:26 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-09 22:09:26 | INFO | Message received from author: Diana
+2025-09-09 22:09:26 | INFO | Updated author counts: {'Eve': 382, 'Alice': 546, 'Charlie': 337, 'Diana': 613, 'Bob': 387}
+2025-09-09 22:09:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-09 22:09:27 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Alice'}
+2025-09-09 22:09:27 | INFO | Message received from author: Alice
+2025-09-09 22:09:27 | INFO | Updated author counts: {'Eve': 382, 'Alice': 547, 'Charlie': 337, 'Diana': 613, 'Bob': 387}
+2025-09-09 22:09:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-09 22:09:28 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Eve'}
+2025-09-09 22:09:28 | INFO | Message received from author: Eve
+2025-09-09 22:09:28 | INFO | Updated author counts: {'Eve': 383, 'Alice': 547, 'Charlie': 337, 'Diana': 613, 'Bob': 387}
+2025-09-09 22:09:29 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:29.391433', 'temperature': 142.2}
+2025-09-09 22:09:29 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:29.391433', 'temperature': 142.2}
+2025-09-09 22:09:29 | INFO | Rolling window size: 10
+2025-09-09 22:09:29 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:29 | INFO | STALL DETECTED at 2025-09-10T03:09:29.391433: Temp stable at 142.2°F over last 10 readings.
+2025-09-09 22:09:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-09 22:09:29 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Diana'}
+2025-09-09 22:09:29 | INFO | Message received from author: Diana
+2025-09-09 22:09:29 | INFO | Updated author counts: {'Eve': 383, 'Alice': 547, 'Charlie': 337, 'Diana': 614, 'Bob': 387}
+2025-09-09 22:09:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-09 22:09:30 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Charlie'}
+2025-09-09 22:09:30 | INFO | Message received from author: Charlie
+2025-09-09 22:09:30 | INFO | Updated author counts: {'Eve': 383, 'Alice': 547, 'Charlie': 338, 'Diana': 614, 'Bob': 387}
+2025-09-09 22:09:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-09 22:09:31 | INFO | Processed JSON message: {'message': 'This is a buzz message.', 'author': 'Charlie'}
+2025-09-09 22:09:31 | INFO | Message received from author: Charlie
+2025-09-09 22:09:31 | INFO | Updated author counts: {'Eve': 383, 'Alice': 547, 'Charlie': 339, 'Diana': 614, 'Bob': 387}
+2025-09-09 22:09:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-09 22:09:32 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Alice'}
+2025-09-09 22:09:32 | INFO | Message received from author: Alice
+2025-09-09 22:09:32 | INFO | Updated author counts: {'Eve': 383, 'Alice': 548, 'Charlie': 339, 'Diana': 614, 'Bob': 387}
+2025-09-09 22:09:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-09 22:09:33 | INFO | Processed JSON message: {'message': 'Hello, Kafka world!', 'author': 'Diana'}
+2025-09-09 22:09:33 | INFO | Message received from author: Diana
+2025-09-09 22:09:33 | INFO | Updated author counts: {'Eve': 383, 'Alice': 548, 'Charlie': 339, 'Diana': 615, 'Bob': 387}
+2025-09-09 22:09:34 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:34.397900', 'temperature': 142.0}
+2025-09-09 22:09:34 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:34.397900', 'temperature': 142.0}
+2025-09-09 22:09:34 | INFO | Rolling window size: 10
+2025-09-09 22:09:34 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:34 | INFO | STALL DETECTED at 2025-09-10T03:09:34.397900: Temp stable at 142.0°F over last 10 readings.
+2025-09-09 22:09:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-09 22:09:34 | INFO | Processed JSON message: {'message': 'Kafka is awesome.', 'author': 'Bob'}
+2025-09-09 22:09:34 | INFO | Message received from author: Bob
+2025-09-09 22:09:34 | INFO | Updated author counts: {'Eve': 383, 'Alice': 548, 'Charlie': 339, 'Diana': 615, 'Bob': 388}
+2025-09-09 22:09:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-09 22:09:35 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Eve'}
+2025-09-09 22:09:35 | INFO | Message received from author: Eve
+2025-09-09 22:09:35 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 339, 'Diana': 615, 'Bob': 388}
+2025-09-09 22:09:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-09 22:09:36 | INFO | Processed JSON message: {'message': 'JSON makes life easier.', 'author': 'Charlie'}
+2025-09-09 22:09:36 | INFO | Message received from author: Charlie
+2025-09-09 22:09:36 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 340, 'Diana': 615, 'Bob': 388}
+2025-09-09 22:09:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-09 22:09:37 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-09 22:09:37 | INFO | Message received from author: Charlie
+2025-09-09 22:09:37 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 341, 'Diana': 615, 'Bob': 388}
+2025-09-09 22:09:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-09 22:09:38 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Charlie'}
+2025-09-09 22:09:38 | INFO | Message received from author: Charlie
+2025-09-09 22:09:38 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 342, 'Diana': 615, 'Bob': 388}
+2025-09-09 22:09:39 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:39.401750', 'temperature': 142.2}
+2025-09-09 22:09:39 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:39.401750', 'temperature': 142.2}
+2025-09-09 22:09:39 | INFO | Rolling window size: 10
+2025-09-09 22:09:39 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:39 | INFO | STALL DETECTED at 2025-09-10T03:09:39.401750: Temp stable at 142.2°F over last 10 readings.
+2025-09-09 22:09:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-09 22:09:39 | INFO | Processed JSON message: {'message': 'I love Python!', 'author': 'Diana'}
+2025-09-09 22:09:39 | INFO | Message received from author: Diana
+2025-09-09 22:09:39 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 342, 'Diana': 616, 'Bob': 388}
+2025-09-09 22:09:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-09 22:09:40 | INFO | Processed JSON message: {'message': 'Streaming data is fun.', 'author': 'Diana'}
+2025-09-09 22:09:40 | INFO | Message received from author: Diana
+2025-09-09 22:09:40 | INFO | Updated author counts: {'Eve': 384, 'Alice': 548, 'Charlie': 342, 'Diana': 617, 'Bob': 388}
+2025-09-09 22:09:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-09 22:09:41 | INFO | Processed JSON message: {'message': 'Data engineering is my passion.', 'author': 'Eve'}
+2025-09-09 22:09:41 | INFO | Message received from author: Eve
+2025-09-09 22:09:41 | INFO | Updated author counts: {'Eve': 385, 'Alice': 548, 'Charlie': 342, 'Diana': 617, 'Bob': 388}
+2025-09-09 22:09:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-09 22:09:42 | INFO | Processed JSON message: {'message': 'Buzz messages for everyone.', 'author': 'Eve'}
+2025-09-09 22:09:42 | INFO | Message received from author: Eve
+2025-09-09 22:09:42 | INFO | Updated author counts: {'Eve': 386, 'Alice': 548, 'Charlie': 342, 'Diana': 617, 'Bob': 388}
+2025-09-09 22:09:43 | WARNING | Producer interrupted by user.
+2025-09-09 22:09:43 | INFO | Kafka producer closed.
+2025-09-09 22:09:43 | INFO | END producer.
+2025-09-09 22:09:44 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:44.406839', 'temperature': 142.0}
+2025-09-09 22:09:44 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:44.406839', 'temperature': 142.0}
+2025-09-09 22:09:44 | INFO | Rolling window size: 10
+2025-09-09 22:09:44 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:44 | INFO | STALL DETECTED at 2025-09-10T03:09:44.406839: Temp stable at 142.0°F over last 10 readings.
+2025-09-09 22:09:49 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:49.408670', 'temperature': 142.2}
+2025-09-09 22:09:49 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:49.408670', 'temperature': 142.2}
+2025-09-09 22:09:49 | INFO | Rolling window size: 10
+2025-09-09 22:09:49 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:49 | INFO | STALL DETECTED at 2025-09-10T03:09:49.408670: Temp stable at 142.2°F over last 10 readings.
+2025-09-09 22:09:50 | WARNING | Consumer interrupted by user.
+2025-09-09 22:09:50 | INFO | Kafka consumer for topic 'buzzline_json' closed.
+2025-09-09 22:09:50 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
+2025-09-09 22:09:54 | INFO | Sent message to topic 'smoker_csv': {'timestamp': '2025-09-10T03:09:54.412665', 'temperature': 142.0}
+2025-09-09 22:09:54 | INFO | Processed JSON message: {'timestamp': '2025-09-10T03:09:54.412665', 'temperature': 142.0}
+2025-09-09 22:09:54 | INFO | Rolling window size: 10
+2025-09-09 22:09:54 | INFO | Max stall temperature range: 0.2 F
+2025-09-09 22:09:54 | INFO | STALL DETECTED at 2025-09-10T03:09:54.412665: Temp stable at 142.0°F over last 10 readings.
+2025-09-09 22:09:54 | WARNING | Producer interrupted by user.
+2025-09-09 22:09:54 | INFO | Kafka producer closed.
+2025-09-09 22:09:54 | INFO | END producer.
+2025-09-09 22:09:58 | WARNING | Consumer interrupted by user.
+2025-09-09 22:09:58 | INFO | Kafka consumer for topic 'smoker_csv' closed.
