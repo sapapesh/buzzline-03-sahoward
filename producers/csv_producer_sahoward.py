@@ -15,7 +15,7 @@ each field is clearly labeled.
 import os
 import sys
 import time  # control message intervals
-import pathlib  # work with file paths
+from pathlib import Path  # work with file paths
 import csv  # handle CSV data
 import json  # work with JSON data
 from datetime import datetime  # work with timestamps
@@ -63,15 +63,16 @@ def get_message_interval() -> int:
 
 # The parent directory of this file is its folder.
 # Go up one more parent level to get the project root.
-PROJECT_ROOT = pathlib.Path(__file__).parent.parent
+PROJECT_ROOT = Path(__file__).parent.parent
 logger.info(f"Project root: {PROJECT_ROOT}")
 
 # Set directory where data is stored
 DATA_FOLDER = PROJECT_ROOT.joinpath("data")
+DATA_FOLDER.mkdir(parents=True, exist_ok=True)   # ✅ ensure folder exists
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE = DATA_FOLDER.joinpath("pool_temps.csv")
+DATA_FILE = DATA_FOLDER / "pool_temps.csv"
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -194,6 +195,9 @@ def main():
 #####################################
 # Conditional Execution
 #####################################
-
+if not DATA_FILE.exists():
+    logger.warning(f"Data file not found: {DATA_FILE}. Creating new CSV...")
+    generate_temperature_csv(DATA_FILE, num_records=200)
+    
 if __name__ == "__main__":
     main()

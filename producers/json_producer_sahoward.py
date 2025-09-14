@@ -48,14 +48,14 @@ load_dotenv()
 
 def get_kafka_topic() -> str:
     """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("PETS_TOPIC", "unknown_topic")
+    topic = os.getenv("BUZZ_TOPIC", "unknown_topic")
     logger.info(f"Kafka topic: {topic}")
     return topic
 
 
 def get_message_interval() -> int:
     """Fetch message interval from environment or use default."""
-    interval = int(os.getenv("PETS_INTERVAL_SECONDS", 1))
+    interval = int(os.getenv("BUZZ_INTERVAL_SECONDS", 1))
     logger.info(f"Message interval: {interval} seconds")
     return interval
 
@@ -74,7 +74,7 @@ DATA_FOLDER: pathlib.Path = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("pets.json")
+DATA_FILE: pathlib.Path = DATA_FOLDER.joinpath("buzz.json")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
@@ -108,13 +108,13 @@ def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None
                 json_data: list[Dict[str, Any]] = json.load(json_file)
 
                 # Iterate over the entries in the JSON file
-                for pets_entry in json_data:
+                for buzz_entry in json_data:
                     # Assign a random type of pet from the list
-                    pets_entry["pet"] = random.choice(PETS)
+                    buzz_entry["pet"] = random.choice(PETS)
                     # Assign a random color from the list
-                    pets_entry["color"] = random.choice(COLOR)
-                    logger.debug(f"Modified JSON with pet: {pets_entry}")
-                    yield pets_entry
+                    buzz_entry["color"] = random.choice(COLOR)
+                    logger.debug(f"Modified JSON with pet: {buzz_entry}")
+                    yield buzz_entry
         
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
