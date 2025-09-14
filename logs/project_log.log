@@ -1,1 +1,1 @@
-2025-09-13 21:48:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'pet': 'horse', 'color': 'orange'}
+2025-09-13 22:17:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'gray'}

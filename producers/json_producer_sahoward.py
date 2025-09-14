@@ -3,11 +3,11 @@ json_producer_sahoward.py
 
 Stream JSON data to a Kafka topic.
 
-Example JSON message
-{"message": "I love Python!", "author": "Eve"}
+Example serialized Kafka message
+"{\"message\": \"I love Python!\", \"author\": \"Eve\", \"pet\": \"dog\", \"color\": \"white\"}"
 
-Example serialized to Kafka message
-"{\"message\": \"I love Python!\", \"author\": \"Eve\"}"
+Example JSON message (after deserialization) to be analyzed
+{"message": "I love Python!", "author": "Eve", "pet": "dog", "color": "white"}
 
 """
 

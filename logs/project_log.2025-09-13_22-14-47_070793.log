@@ -1,0 +1,345 @@
+2025-09-13 22:14:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'hamster', 'color': 'brown'}
+2025-09-13 22:14:47 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:14:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-13 22:14:48 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:14:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:14:49 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-13 22:14:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:14:50 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:14:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'hamster', 'color': 'black'}
+2025-09-13 22:14:51 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:14:52 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-13 22:14:52 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-13 22:14:52 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:14:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'pet': 'cat', 'color': 'cream'}
+2025-09-13 22:14:53 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 77}
+2025-09-13 22:14:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:14:54 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:14:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:14:55 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:14:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'cat', 'color': 'black'}
+2025-09-13 22:14:56 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:14:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'bird', 'color': 'white'}
+2025-09-13 22:14:57 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:14:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'goat', 'color': 'white'}
+2025-09-13 22:14:58 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 80}
+2025-09-13 22:14:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:14:59 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-13 22:14:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'horse', 'color': 'orange'}
+2025-09-13 22:15:00 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-13 22:15:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:15:01 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:15:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'hamster', 'color': 'brown'}
+2025-09-13 22:15:02 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-13 22:15:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'horse', 'color': 'blue'}
+2025-09-13 22:15:03 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:15:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:15:04 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 81}
+2025-09-13 22:15:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:15:05 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:15:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'goat', 'color': 'cream'}
+2025-09-13 22:15:06 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-13 22:15:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-13 22:15:07 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-13 22:15:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'horse', 'color': 'orange'}
+2025-09-13 22:15:08 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-13 22:15:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'cat', 'color': 'black'}
+2025-09-13 22:15:09 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 74}
+2025-09-13 22:15:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'goat', 'color': 'blue'}
+2025-09-13 22:15:10 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-13 22:15:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'cream'}
+2025-09-13 22:15:11 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:15:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:15:12 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:15:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'rabbit', 'color': 'blue'}
+2025-09-13 22:15:13 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-13 22:15:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'pet': 'goat', 'color': 'black'}
+2025-09-13 22:15:14 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-13 22:15:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'cream'}
+2025-09-13 22:15:15 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:15:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'blue'}
+2025-09-13 22:15:16 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:15:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'bird', 'color': 'orange'}
+2025-09-13 22:15:17 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 71}
+2025-09-13 22:15:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'dog', 'color': 'cream'}
+2025-09-13 22:15:18 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:15:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-13 22:15:19 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-13 22:15:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:15:20 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-13 22:15:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'pet': 'hamster', 'color': 'black'}
+2025-09-13 22:15:21 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:15:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'pet': 'dog', 'color': 'white'}
+2025-09-13 22:15:22 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:15:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:15:23 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:15:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'cat', 'color': 'orange'}
+2025-09-13 22:15:24 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:15:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'rabbit', 'color': 'cream'}
+2025-09-13 22:15:25 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 84}
+2025-09-13 22:15:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:15:26 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 66}
+2025-09-13 22:15:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'pet': 'hamster', 'color': 'blue'}
+2025-09-13 22:15:27 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 65}
+2025-09-13 22:15:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'bird', 'color': 'gray'}
+2025-09-13 22:15:28 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:15:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'cream'}
+2025-09-13 22:15:29 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-13 22:15:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:15:30 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:15:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'bird', 'color': 'black'}
+2025-09-13 22:15:31 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-13 22:15:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'hamster', 'color': 'gray'}
+2025-09-13 22:15:32 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 65}
+2025-09-13 22:15:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'pet': 'dog', 'color': 'white'}
+2025-09-13 22:15:33 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-13 22:15:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'brown'}
+2025-09-13 22:15:34 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-13 22:15:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'bird', 'color': 'red'}
+2025-09-13 22:15:35 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-13 22:15:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'cat', 'color': 'orange'}
+2025-09-13 22:15:36 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-13 22:15:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'bird', 'color': 'brown'}
+2025-09-13 22:15:37 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:15:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'rabbit', 'color': 'blue'}
+2025-09-13 22:15:38 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:15:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:15:39 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-13 22:15:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'dog', 'color': 'blue'}
+2025-09-13 22:15:40 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:15:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'bird', 'color': 'orange'}
+2025-09-13 22:15:41 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-13 22:15:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:15:42 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 73}
+2025-09-13 22:15:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'pet': 'rabbit', 'color': 'black'}
+2025-09-13 22:15:43 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-13 22:15:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-13 22:15:44 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:15:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:15:45 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-13 22:15:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'rabbit', 'color': 'orange'}
+2025-09-13 22:15:46 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-13 22:15:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'goat', 'color': 'red'}
+2025-09-13 22:15:47 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:15:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'goat', 'color': 'blue'}
+2025-09-13 22:15:48 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 93}
+2025-09-13 22:15:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'goat', 'color': 'cream'}
+2025-09-13 22:15:49 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 82}
+2025-09-13 22:15:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'pet': 'dog', 'color': 'orange'}
+2025-09-13 22:15:50 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:15:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'bird', 'color': 'gray'}
+2025-09-13 22:15:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'cat', 'color': 'orange'}
+2025-09-13 22:15:51 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:15:52 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-13 22:15:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'horse', 'color': 'gray'}
+2025-09-13 22:15:53 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:15:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'hamster', 'color': 'blue'}
+2025-09-13 22:15:54 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-13 22:15:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana', 'pet': 'goat', 'color': 'orange'}
+2025-09-13 22:15:55 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:15:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob', 'pet': 'rabbit', 'color': 'blue'}
+2025-09-13 22:15:56 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-13 22:15:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'gerbil', 'color': 'blue'}
+2025-09-13 22:15:57 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-13 22:15:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'hamster', 'color': 'black'}
+2025-09-13 22:15:58 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:15:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve', 'pet': 'hamster', 'color': 'gray'}
+2025-09-13 22:15:59 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-13 22:15:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'goat', 'color': 'black'}
+2025-09-13 22:16:00 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:16:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:16:01 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 66}
+2025-09-13 22:16:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'white'}
+2025-09-13 22:16:02 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-13 22:16:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'horse', 'color': 'brown'}
+2025-09-13 22:16:03 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-13 22:16:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-13 22:16:04 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-13 22:16:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob', 'pet': 'rabbit', 'color': 'orange'}
+2025-09-13 22:16:05 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-13 22:16:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'hamster', 'color': 'orange'}
+2025-09-13 22:16:06 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 77}
+2025-09-13 22:16:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'pet': 'horse', 'color': 'white'}
+2025-09-13 22:16:07 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:16:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'pet': 'cat', 'color': 'blue'}
+2025-09-13 22:16:08 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:16:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-13 22:16:09 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:16:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'pet': 'dog', 'color': 'orange'}
+2025-09-13 22:16:10 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:16:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'goat', 'color': 'gray'}
+2025-09-13 22:16:11 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:16:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'pet': 'bird', 'color': 'cream'}
+2025-09-13 22:16:12 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-13 22:16:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve', 'pet': 'dog', 'color': 'black'}
+2025-09-13 22:16:13 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:16:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'dog', 'color': 'red'}
+2025-09-13 22:16:14 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:16:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'pet': 'dog', 'color': 'orange'}
+2025-09-13 22:16:15 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 77}
+2025-09-13 22:16:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'goat', 'color': 'brown'}
+2025-09-13 22:16:16 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-13 22:16:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'cat', 'color': 'cream'}
+2025-09-13 22:16:17 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:16:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'bird', 'color': 'blue'}
+2025-09-13 22:16:18 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:16:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'horse', 'color': 'black'}
+2025-09-13 22:16:19 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:16:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'horse', 'color': 'gray'}
+2025-09-13 22:16:20 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:16:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'pet': 'cat', 'color': 'orange'}
+2025-09-13 22:16:21 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-13 22:16:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'pet': 'dog', 'color': 'white'}
+2025-09-13 22:16:22 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-13 22:16:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'goat', 'color': 'black'}
+2025-09-13 22:16:23 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:16:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'pet': 'goat', 'color': 'brown'}
+2025-09-13 22:16:24 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:16:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'black'}
+2025-09-13 22:16:25 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-13 22:16:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie', 'pet': 'horse', 'color': 'orange'}
+2025-09-13 22:16:26 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-13 22:16:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'pet': 'gerbil', 'color': 'brown'}
+2025-09-13 22:16:27 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 94}
+2025-09-13 22:16:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'rabbit', 'color': 'black'}
+2025-09-13 22:16:28 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:16:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'goat', 'color': 'orange'}
+2025-09-13 22:16:29 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:16:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'cat', 'color': 'gray'}
+2025-09-13 22:16:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'pet': 'goat', 'color': 'cream'}
+2025-09-13 22:16:31 | INFO | Opening data file in read mode: PROJECT_ROOT/data/pool_temps.csv
+2025-09-13 22:16:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'bird', 'color': 'gray'}
+2025-09-13 22:16:31 | INFO | Reading data from file: PROJECT_ROOT/data/pool_temps.csv
+2025-09-13 22:16:31 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:16:32 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-13 22:16:32 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-13 22:16:32 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-13 22:16:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'pet': 'bird', 'color': 'orange'}
+2025-09-13 22:16:33 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-13 22:16:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'pet': 'goat', 'color': 'white'}
+2025-09-13 22:16:34 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:16:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'brown'}
+2025-09-13 22:16:35 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-13 22:16:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'blue'}
+2025-09-13 22:16:36 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:16:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:16:37 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-13 22:16:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'hamster', 'color': 'cream'}
+2025-09-13 22:16:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:16:38 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-13 22:16:39 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:16:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:16:40 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-13 22:16:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:16:41 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-13 22:16:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'hamster', 'color': 'red'}
+2025-09-13 22:16:42 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:16:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'red'}
+2025-09-13 22:16:43 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-13 22:16:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'hamster', 'color': 'orange'}
+2025-09-13 22:16:44 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:16:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'pet': 'bird', 'color': 'blue'}
+2025-09-13 22:16:45 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-13 22:16:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'gerbil', 'color': 'red'}
+2025-09-13 22:16:46 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-13 22:16:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'dog', 'color': 'blue'}
+2025-09-13 22:16:47 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 63}
+2025-09-13 22:16:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'dog', 'color': 'cream'}
+2025-09-13 22:16:48 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:16:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'cat', 'color': 'brown'}
+2025-09-13 22:16:49 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 63}
+2025-09-13 22:16:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'cat', 'color': 'cream'}
+2025-09-13 22:16:50 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 22:16:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'horse', 'color': 'gray'}
+2025-09-13 22:16:51 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 84}
+2025-09-13 22:16:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'dog', 'color': 'gray'}
+2025-09-13 22:16:52 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 74}
+2025-09-13 22:16:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'goat', 'color': 'red'}
+2025-09-13 22:16:53 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-13 22:16:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'pet': 'dog', 'color': 'orange'}
+2025-09-13 22:16:54 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:16:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'hamster', 'color': 'red'}
+2025-09-13 22:16:55 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 84}
+2025-09-13 22:16:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'bird', 'color': 'gray'}
+2025-09-13 22:16:56 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-13 22:16:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-13 22:16:57 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-13 22:16:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'cat', 'color': 'white'}
+2025-09-13 22:16:58 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-13 22:16:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'pet': 'hamster', 'color': 'cream'}
+2025-09-13 22:16:59 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:16:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'horse', 'color': 'red'}
+2025-09-13 22:17:00 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-13 22:17:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'pet': 'goat', 'color': 'white'}
+2025-09-13 22:17:01 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-13 22:17:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'pet': 'goat', 'color': 'orange'}
+2025-09-13 22:17:02 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'pet': 'cat', 'color': 'gray'}
+2025-09-13 22:17:03 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'hamster', 'color': 'gray'}
+2025-09-13 22:17:04 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-13 22:17:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'bird', 'color': 'white'}
+2025-09-13 22:17:05 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-13 22:17:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'horse', 'color': 'cream'}
+2025-09-13 22:17:06 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 74}
+2025-09-13 22:17:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'pet': 'cat', 'color': 'red'}
+2025-09-13 22:17:07 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 81}
+2025-09-13 22:17:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'goat', 'color': 'cream'}
+2025-09-13 22:17:08 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-13 22:17:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'orange'}
+2025-09-13 22:17:09 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-13 22:17:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'pet': 'rabbit', 'color': 'white'}
+2025-09-13 22:17:10 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:17:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'white'}
+2025-09-13 22:17:11 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 82}
+2025-09-13 22:17:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'rabbit', 'color': 'black'}
+2025-09-13 22:17:12 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-13 22:17:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'pet': 'hamster', 'color': 'orange'}
+2025-09-13 22:17:13 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-13 22:17:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'pet': 'rabbit', 'color': 'cream'}
+2025-09-13 22:17:14 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:17:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'dog', 'color': 'gray'}
+2025-09-13 22:17:15 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:17:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'horse', 'color': 'cream'}
+2025-09-13 22:17:16 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:17:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'dog', 'color': 'brown'}
+2025-09-13 22:17:17 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'goat', 'color': 'black'}
+2025-09-13 22:17:18 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 73}
+2025-09-13 22:17:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'pet': 'hamster', 'color': 'black'}
+2025-09-13 22:17:19 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 94}
+2025-09-13 22:17:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-13 22:17:20 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-13 22:17:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'black'}
+2025-09-13 22:17:21 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-13 22:17:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'hamster', 'color': 'brown'}
+2025-09-13 22:17:22 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-13 22:17:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'pet': 'goat', 'color': 'orange'}
+2025-09-13 22:17:23 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'cat', 'color': 'gray'}
+2025-09-13 22:17:24 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'pet': 'rabbit', 'color': 'white'}
+2025-09-13 22:17:25 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'goat', 'color': 'red'}
+2025-09-13 22:17:26 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 71}
+2025-09-13 22:17:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-13 22:17:27 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 82}
+2025-09-13 22:17:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'bird', 'color': 'red'}
+2025-09-13 22:17:28 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 71}
+2025-09-13 22:17:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'cat', 'color': 'black'}
+2025-09-13 22:17:29 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-13 22:17:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'pet': 'cat', 'color': 'white'}
+2025-09-13 22:17:30 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-13 22:17:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'black'}
+2025-09-13 22:17:31 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-13 22:17:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'hamster', 'color': 'white'}
+2025-09-13 22:17:32 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-13 22:17:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'horse', 'color': 'orange'}
+2025-09-13 22:17:33 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-13 22:17:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'dog', 'color': 'gray'}
+2025-09-13 22:17:34 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 71}
+2025-09-13 22:17:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana', 'pet': 'goat', 'color': 'black'}
+2025-09-13 22:17:35 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-13 22:17:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob', 'pet': 'rabbit', 'color': 'white'}
+2025-09-13 22:17:36 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-13 22:17:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'cat', 'color': 'brown'}

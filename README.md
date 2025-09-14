@@ -114,22 +114,23 @@ This producer generates streaming JSON data for our topic.
 In VS Code, open a terminal.
 Use the commands below to activate .venv (if not active), and start the producer.
 
+The producer has been updated to include a pet name and color in the data.
+
 Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.json_producer_case
+py -m producers.json_producer_sahoward
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m producers.json_producer_case
+python3 -m producers.json_producer_sahoward
 ```
 
 What did we name the topic used with JSON data?
-Hint: See the producer code and [.env](.env).
 
 ## Task 4. Start a Kafka JSON Consumer
 
@@ -142,14 +143,14 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.json_consumer_case
+py -m consumers.json_consumer_sahoward
 ```
 
 Mac/Linux:
 
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+python3 -m consumers.json_consumer_sahowrd
 ```
 
 What did we name the topic used with JSON data?
@@ -173,9 +174,11 @@ Hint: See the producer code and [.env](.env).
 
 Hint: Windows:
 
+The csv file is generating pool temperatures.
+
 ```shell
 .venv\Scripts\activate
-py -m producers.csv_producer_case
+py -m producers.csv_producer_sahoward
 ```
 
 ## Task 6. Start a Kafka CSV Consumer
@@ -196,7 +199,7 @@ Hint: Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m consumers.csv_consumer_case
+py -m consumers.csv_consumer_sahoward
 ```
 
 ---
