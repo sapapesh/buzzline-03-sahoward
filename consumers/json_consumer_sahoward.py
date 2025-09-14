@@ -1,5 +1,5 @@
 """
-json_consumer_case.py
+json_consumer_sahoward.py
 
 Consume json messages from a Kafka topic and process them.
 
@@ -21,6 +21,7 @@ Example JSON message (after deserialization) to be analyzed
 import os
 import json  # handle JSON parsing
 from collections import defaultdict  # data structure for counting author occurrences
+from kafka import KafkaConsumer
 
 # Import external packages
 from dotenv import load_dotenv
@@ -53,6 +54,7 @@ def get_kafka_consumer_group_id() -> str:
     logger.info(f"Kafka consumer group id: {group_id}")
     return group_id
 
+match_count = {}
 
 #####################################
 # Set up Data Store to hold pet counts
@@ -62,7 +64,7 @@ def get_kafka_consumer_group_id() -> str:
 # The defaultdict type initializes counts to 0
 # pass in the int function as the default_factory
 # to ensure counts are integers
-# {pet: count} author is the key and count is the value
+# {pet: count} pet is the key and count is the value
 pet_counts: defaultdict[str, int] = defaultdict(int)
 
 
@@ -97,13 +99,25 @@ def process_message(message: str) -> None:
         pet_counts[pet] += 1
 
         # Log the updated counts
-        logger.info(f"Updated pet counts: {dict(pet_counts)}")
+        logger.info(f"Updated author counts: {dict(pet_counts)}")
+
+        # Check for pet
+        pet = str(message_dict.get("pet", "")).strip().upper()
+    
+
+        # Alert logic
+        if pet == "goat":
+
+            logger.warning(
+                f"🚨 ALERT: Match found — Pet: goat (Total Matches: {match_count['goat']}) Watch out for goats!"
+            )
+        else:
+            logger.debug(f"No alert triggered.")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")
     except Exception as e:
         logger.error(f"Error processing message: {e}")
-
 
 #####################################
 # Define main function for this module

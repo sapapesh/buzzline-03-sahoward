@@ -1,1 +1,4 @@
-2025-09-13 22:17:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-13 22:57:31 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'cream'}
+2025-09-13 22:57:31 | INFO | Message received from pet: gerbil
+2025-09-13 22:57:31 | INFO | Updated author counts: {'dog': 151, 'gerbil': 173, 'cat': 145, 'bird': 141, 'rabbit': 149, 'horse': 147, 'goat': 148, 'hamster': 155}
+2025-09-13 22:57:31 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
