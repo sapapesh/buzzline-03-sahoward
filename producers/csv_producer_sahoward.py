@@ -1,5 +1,5 @@
 """
-csv_producer_case.py
+csv_producer_sahoward.py
 
 Stream numeric data to a Kafka topic.
 
@@ -19,6 +19,7 @@ import pathlib  # work with file paths
 import csv  # handle CSV data
 import json  # work with JSON data
 from datetime import datetime  # work with timestamps
+import random
 
 # Import external packages
 from dotenv import load_dotenv
@@ -44,14 +45,14 @@ load_dotenv()
 
 def get_kafka_topic() -> str:
     """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("SMOKER_TOPIC", "unknown_topic")
+    topic = os.getenv("POOL_TOPIC", "unknown_topic")
     logger.info(f"Kafka topic: {topic}")
     return topic
 
 
 def get_message_interval() -> int:
     """Fetch message interval from environment or use default."""
-    interval = int(os.getenv("SMOKER_INTERVAL_SECONDS", 1))
+    interval = int(os.getenv("POOL_INTERVAL_SECONDS", 1))
     logger.info(f"Message interval: {interval} seconds")
     return interval
 
@@ -70,52 +71,65 @@ DATA_FOLDER = PROJECT_ROOT.joinpath("data")
 logger.info(f"Data folder: {DATA_FOLDER}")
 
 # Set the name of the data file
-DATA_FILE = DATA_FOLDER.joinpath("smoker_temps.csv")
+DATA_FILE = DATA_FOLDER.joinpath("pool_temps.csv")
 logger.info(f"Data file: {DATA_FILE}")
 
 #####################################
 # Message Generator
 #####################################
 
-
-def generate_messages(file_path: pathlib.Path):
+def generate_temperature_csv(file_path: Path, num_records: int = 100):
     """
-    Read from a csv file and yield records one by one, continuously.
+    Generate a CSV file with random pool temperatures between 60 and 99,
+    each with a timestamp.
 
     Args:
-        file_path (pathlib.Path): Path to the CSV file.
+        file_path (Path): Path to the CSV file.
+        num_records (int): Number of rows to generate.
+    """
+    with open(file_path, "w", newline="") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "temperature"])
+        writer.writeheader()
+        for _ in range(num_records):
+            writer.writerow({
+                "timestamp": datetime.utcnow().isoformat(),
+                "temperature": random.randint(60, 99)
+            })
+
+def generate_messages(file_path: Path):
+    """
+    Read from a CSV file and yield records one by one, continuously.
+
+    Args:
+        file_path (Path): Path to the CSV file.
 
     Yields:
-        str: CSV row formatted as a string.
+        dict: A message containing timestamp and temperature.
     """
     while True:
         try:
-            logger.info(f"Opening data file in read mode: {DATA_FILE}")
-            with open(DATA_FILE, "r") as csv_file:
-                logger.info(f"Reading data from file: {DATA_FILE}")
+            logger.info(f"Opening data file in read mode: {file_path}")
+            with open(file_path, "r", newline="") as csv_file:
+                logger.info(f"Reading data from file: {file_path}")
 
                 csv_reader = csv.DictReader(csv_file)
                 for row in csv_reader:
-                    # Ensure required fields are present
-                    if "temperature" not in row:
-                        logger.error(f"Missing 'temperature' column in row: {row}")
+                    if "temperature" not in row or "timestamp" not in row:
+                        logger.error(f"Missing required column in row: {row}")
                         continue
 
-                    # Generate a timestamp and prepare the message
-                    current_timestamp = datetime.utcnow().isoformat()
                     message = {
-                        "timestamp": current_timestamp,
-                        "temperature": float(row["temperature"]),
+                        "timestamp": row["timestamp"],
+                        "temperature": int(row["temperature"]),
                     }
                     logger.debug(f"Generated message: {message}")
                     yield message
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
-            sys.exit(1)
+            break
         except Exception as e:
             logger.error(f"Unexpected error in message generation: {e}")
-            sys.exit(3)
-
+            break
 
 #####################################
 # Define main function for this module.
