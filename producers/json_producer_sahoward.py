@@ -22,6 +22,7 @@ import time
 import pathlib  # work with file paths
 import json  # work with JSON data
 from typing import Generator, Dict, Any
+import random
 
 # Import external packages
 from dotenv import load_dotenv
@@ -93,6 +94,10 @@ def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None
     Yields:
         dict: A dictionary containing the JSON data.
     """
+
+    PETS = ["dog", "cat", "horse", "goat", "rabbit", "hamster", "gerbil", "bird"]
+    COLOR = ["gray", "orange", "black", "white", "brown", "red", "blue", "cream"]
+    
     while True:
         try:
             logger.info(f"Opening data file in read mode: {DATA_FILE}")
@@ -104,7 +109,11 @@ def generate_messages(file_path: pathlib.Path) -> Generator[Dict[str, Any], None
 
                 # Iterate over the entries in the JSON file
                 for buzz_entry in json_data:
-                    logger.debug(f"Generated JSON: {buzz_entry}")
+                    # Assign a random type of pet from the list
+                    buzz_entry["pet"] = random.choice(PETS)
+                    # Assign a random color from the list
+                    buzz_entry["color"] = random.choice(COLOR)
+                    logger.debug(f"Modified JSON with pet: {buzz_entry}")
                     yield buzz_entry
         
         except FileNotFoundError:
