@@ -1,4 +1,96 @@
-2025-09-13 22:57:31 | INFO | Processed JSON message: {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'gerbil', 'color': 'cream'}
-2025-09-13 22:57:31 | INFO | Message received from pet: gerbil
-2025-09-13 22:57:31 | INFO | Updated author counts: {'dog': 151, 'gerbil': 173, 'cat': 145, 'bird': 141, 'rabbit': 149, 'horse': 147, 'goat': 148, 'hamster': 155}
-2025-09-13 22:57:31 | INFO | Sent message to topic 'unknown_topic': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-14 00:01:13 | INFO | Received message from pet: bird
+F
+2025-09-14 00:01:13 | INFO | Updated pet counts: {'bird': 94, 'dog': 76, 'cat': 76, 'hamster': 109, 'goat': 101, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 62°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 68°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 73}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 93}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 82}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 64°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:14 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 66}
+2025-09-14 00:01:14 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 66}
+2025-09-14 00:01:14 | INFO | Rolling window size: 5
+2025-09-14 00:01:14 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:14 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 66°F
+2025-09-14 00:01:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'hamster', 'color': 'orange'}
+2025-09-14 00:01:14 | INFO | Received message from pet: hamster
+2025-09-14 00:01:14 | INFO | Updated pet counts: {'bird': 94, 'dog': 76, 'cat': 76, 'hamster': 110, 'goat': 101, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:15 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:01:15 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:01:15 | INFO | Rolling window size: 5
+2025-09-14 00:01:15 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'goat', 'color': 'red'}
+2025-09-14 00:01:16 | INFO | Received message from pet: goat
+2025-09-14 00:01:16 | INFO | Updated pet counts: {'bird': 94, 'dog': 76, 'cat': 76, 'hamster': 110, 'goat': 102, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:16 | WARNING | 🚨 ALERT: Goat detected! Total matches: 102
+2025-09-14 00:01:16 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-14 00:01:16 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-14 00:01:16 | INFO | Rolling window size: 5
+2025-09-14 00:01:16 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'horse', 'color': 'brown'}
+2025-09-14 00:01:16 | INFO | Received message from pet: horse
+2025-09-14 00:01:16 | INFO | Updated pet counts: {'bird': 94, 'dog': 76, 'cat': 76, 'hamster': 110, 'goat': 102, 'horse': 93, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:17 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:01:17 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:01:17 | INFO | Rolling window size: 5
+2025-09-14 00:01:17 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'rabbit', 'color': 'orange'}
+2025-09-14 00:01:17 | INFO | Received message from pet: rabbit
+2025-09-14 00:01:17 | INFO | Updated pet counts: {'bird': 94, 'dog': 76, 'cat': 76, 'hamster': 110, 'goat': 102, 'horse': 93, 'gerbil': 80, 'rabbit': 87}

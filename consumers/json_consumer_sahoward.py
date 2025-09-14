@@ -17,162 +17,99 @@ Example JSON message (after deserialization) to be analyzed
 # Import Modules
 #####################################
 
-# Import packages from Python Standard Library
 import os
-import json  # handle JSON parsing
-from collections import defaultdict  # data structure for counting author occurrences
-from kafka import KafkaConsumer
-
-# Import external packages
+import json
+import time
+from collections import defaultdict
+from kafka import KafkaConsumer, errors
 from dotenv import load_dotenv
-
-# Import functions from local modules
-from utils.utils_consumer import create_kafka_consumer
 from utils.utils_logger import logger
-
-#####################################
-# Load Environment Variables
-#####################################
 
 load_dotenv()
 
-#####################################
-# Getter Functions for .env Variables
-#####################################
+# -----------------------------
+# Configuration
+# -----------------------------
+TOPIC = os.getenv("BUZZ_TOPIC", "buzzline_json")
+GROUP_ID = os.getenv("BUZZ_CONSUMER_GROUP_ID", "buzz_group")
+BOOTSTRAP_SERVERS = os.getenv("KAFKA_BROKER", "localhost:9092")
+RETRIES = 5
+RETRY_DELAY = 5  # seconds
 
+# Data stores
+pet_counts = defaultdict(int)
+match_count = defaultdict(int)
 
-def get_kafka_topic() -> str:
-    """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("BUZZ_TOPIC", "unknown_topic")
-    logger.info(f"Kafka topic: {topic}")
-    return topic
+# -----------------------------
+# Helper Functions
+# -----------------------------
+def create_consumer_with_retry(topic, group_id, retries=RETRIES, delay=RETRY_DELAY):
+    """Create KafkaConsumer with retries if broker is unreachable."""
+    for attempt in range(1, retries + 1):
+        try:
+            consumer = KafkaConsumer(
+                topic,
+                bootstrap_servers=BOOTSTRAP_SERVERS,
+                group_id=group_id,
+                auto_offset_reset="earliest",
+                enable_auto_commit=True,
+                value_deserializer=lambda m: m.decode("utf-8"),
+                consumer_timeout_ms=2000,  # prevents indefinite blocking
+            )
+            logger.info("Kafka consumer created successfully.")
+            return consumer
+        except errors.NoBrokersAvailable:
+            logger.warning(f"[Attempt {attempt}/{retries}] Broker not available. Retrying in {delay}s...")
+            time.sleep(delay)
+    raise RuntimeError(f"Failed to connect to Kafka broker at {BOOTSTRAP_SERVERS}")
 
-
-def get_kafka_consumer_group_id() -> str:
-    """Fetch Kafka consumer group id from environment or use default."""
-    group_id: str = os.getenv("BUZZ_CONSUMER_GROUP_ID", "default_group")
-    logger.info(f"Kafka consumer group id: {group_id}")
-    return group_id
-
-match_count = {}
-
-#####################################
-# Set up Data Store to hold pet counts
-#####################################
-
-# Initialize a dictionary to store pet counts
-# The defaultdict type initializes counts to 0
-# pass in the int function as the default_factory
-# to ensure counts are integers
-# {pet: count} pet is the key and count is the value
-pet_counts: defaultdict[str, int] = defaultdict(int)
-
-
-#####################################
-# Function to process a single message
-# #####################################
-
-
-def process_message(message: str) -> None:
-    """
-    Process a single JSON message from Kafka.
-
-    Args:
-        message (str): The JSON message as a string.
-    """
+def process_message(message: str):
+    """Process a single Kafka message."""
     try:
-        # Log the raw message for debugging
-        logger.debug(f"Raw message: {message}")
-
-        # Parse the JSON string into a Python dictionary
-        from typing import Any
-        message_dict: dict[str, Any] = json.loads(message)
-
-        # Ensure the processed JSON is logged for debugging
-        logger.info(f"Processed JSON message: {message_dict}")
-
-        # Extract the 'pet' field from the Python dictionary
+        message_dict = json.loads(message)
         pet = message_dict.get("pet", "unknown")
-        logger.info(f"Message received from pet: {pet}")
-
-        # Increment the count for the pet
         pet_counts[pet] += 1
-
-        # Log the updated counts
-        logger.info(f"Updated author counts: {dict(pet_counts)}")
-
-        # Check for pet
-        pet = str(message_dict.get("pet", "")).strip().upper()
-    
+        logger.info(f"Received message from pet: {pet}")
+        logger.info(f"Updated pet counts: {dict(pet_counts)}")
 
         # Alert logic
-        if pet == "goat":
-
-            logger.warning(
-                f"🚨 ALERT: Match found — Pet: goat (Total Matches: {match_count['goat']}) Watch out for goats!"
-            )
-        else:
-            logger.debug(f"No alert triggered.")
-
+        if pet.strip().lower() == "goat":
+            match_count["goat"] += 1
+            logger.warning(f"🚨 ALERT: Goat detected! Total matches: {match_count['goat']}")
     except json.JSONDecodeError:
-        logger.error(f"Invalid JSON message: {message}")
+        logger.error(f"Invalid JSON: {message}")
     except Exception as e:
         logger.error(f"Error processing message: {e}")
 
-#####################################
-# Define main function for this module
-#####################################
-
-
-def main() -> None:
-    """
-    Main entry point for the consumer.
-
-    - Reads the Kafka topic name and consumer group ID from environment variables.
-    - Creates a Kafka consumer using the `create_kafka_consumer` utility.
-    - Performs analytics on messages from the Kafka topic.
-    """
+# -----------------------------
+# Main Function
+# -----------------------------
+def main():
     logger.info("START consumer.")
+    logger.info(f"Kafka topic: {TOPIC}, group: {GROUP_ID}, broker: {BOOTSTRAP_SERVERS}")
 
-    # fetch .env content
-    topic = get_kafka_topic()
-    group_id = get_kafka_consumer_group_id()
-    logger.info(f"Consumer: Topic '{topic}' and group '{group_id}'...")
-
-    # Create the Kafka consumer using the helpful utility function.
-    consumer = create_kafka_consumer(topic, group_id)
-
-    # Poll and process messages
-    logger.info(f"Polling messages from topic '{topic}'...")
     try:
-        while True:
-            # poll returns a dict: {TopicPartition: [ConsumerRecord, ...], ...}
-            records = consumer.poll(timeout_ms=1000, max_records=100)
-            if not records:
-                continue
+        consumer = create_consumer_with_retry(TOPIC, GROUP_ID)
+    except RuntimeError as e:
+        logger.error(f"Could not start consumer: {e}")
+        return
 
-            for _tp, batch in records.items():
-                for msg in batch:
-                    # value_deserializer in utils_consumer already decoded this to str
-                    message_str: str = msg.value
-                    logger.debug(f"Received message at offset {msg.offset}: {message_str}")
-                    process_message(message_str)
+    logger.info(f"Polling messages from topic '{TOPIC}'...")
+
+    try:
+        for msg in consumer:
+            process_message(msg.value)
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
-    except Exception as e:
-        logger.error(f"Error while consuming messages: {e}")
+    except errors.KafkaError as e:
+        logger.error(f"Kafka error during consumption: {e}")
     finally:
         consumer.close()
-        
-    logger.info(f"Kafka consumer for topic '{topic}' closed.")
+        logger.info(f"Kafka consumer for topic '{TOPIC}' closed.")
+        logger.info("END consumer.")
 
-    logger.info(f"END consumer for topic '{topic}' and group '{group_id}'.")
-
-
-#####################################
-# Conditional Execution
-#####################################
-
-# Ensures this script runs only when executed directly (not when imported as a module).
+# -----------------------------
+# Entry Point
+# -----------------------------
 if __name__ == "__main__":
     main()

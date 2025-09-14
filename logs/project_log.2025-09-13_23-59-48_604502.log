@@ -1,0 +1,432 @@
+2025-09-13 23:59:48 | INFO | Received message from pet: goat
+2025-09-13 23:59:48 | INFO | Updated pet counts: {'bird': 81, 'dog': 66, 'cat': 66, 'hamster': 93, 'goat': 91, 'horse': 78, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:48 | WARNING | 🚨 ALERT: Goat detected! Total matches: 91
+2025-09-13 23:59:49 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-13 23:59:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'pet': 'horse', 'color': 'gray'}
+2025-09-13 23:59:49 | INFO | Received message from pet: horse
+2025-09-13 23:59:49 | INFO | Updated pet counts: {'bird': 81, 'dog': 66, 'cat': 66, 'hamster': 93, 'goat': 91, 'horse': 79, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:50 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-13 23:59:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Charlie', 'pet': 'bird', 'color': 'orange'}
+2025-09-13 23:59:50 | INFO | Received message from pet: bird
+2025-09-13 23:59:50 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 93, 'goat': 91, 'horse': 79, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:51 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-13 23:59:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'goat', 'color': 'gray'}
+2025-09-13 23:59:51 | INFO | Received message from pet: goat
+2025-09-13 23:59:51 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 93, 'goat': 92, 'horse': 79, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:51 | WARNING | 🚨 ALERT: Goat detected! Total matches: 92
+2025-09-13 23:59:52 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-13 23:59:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'hamster', 'color': 'brown'}
+2025-09-13 23:59:52 | INFO | Received message from pet: hamster
+2025-09-13 23:59:52 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 94, 'goat': 92, 'horse': 79, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:53 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 80}
+2025-09-13 23:59:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'hamster', 'color': 'brown'}
+2025-09-13 23:59:53 | INFO | Received message from pet: hamster
+2025-09-13 23:59:53 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 95, 'goat': 92, 'horse': 79, 'gerbil': 72, 'rabbit': 82}
+2025-09-13 23:59:54 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 77}
+2025-09-13 23:59:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Alice', 'pet': 'gerbil', 'color': 'brown'}
+2025-09-13 23:59:54 | INFO | Received message from pet: gerbil
+2025-09-13 23:59:54 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 95, 'goat': 92, 'horse': 79, 'gerbil': 73, 'rabbit': 82}
+2025-09-13 23:59:55 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-13 23:59:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'rabbit', 'color': 'white'}
+2025-09-13 23:59:55 | INFO | Received message from pet: rabbit
+2025-09-13 23:59:55 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 95, 'goat': 92, 'horse': 79, 'gerbil': 73, 'rabbit': 83}
+2025-09-13 23:59:56 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-13 23:59:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'pet': 'horse', 'color': 'gray'}
+2025-09-13 23:59:56 | INFO | Received message from pet: horse
+2025-09-13 23:59:56 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 95, 'goat': 92, 'horse': 80, 'gerbil': 73, 'rabbit': 83}
+2025-09-13 23:59:57 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-13 23:59:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'pet': 'goat', 'color': 'orange'}
+2025-09-13 23:59:57 | INFO | Received message from pet: goat
+2025-09-13 23:59:57 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 95, 'goat': 93, 'horse': 80, 'gerbil': 73, 'rabbit': 83}
+2025-09-13 23:59:57 | WARNING | 🚨 ALERT: Goat detected! Total matches: 93
+2025-09-13 23:59:58 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 80}
+2025-09-13 23:59:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'hamster', 'color': 'cream'}
+2025-09-13 23:59:58 | INFO | Received message from pet: hamster
+2025-09-13 23:59:58 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 93, 'horse': 80, 'gerbil': 73, 'rabbit': 83}
+2025-09-13 23:59:59 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-13 23:59:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'horse', 'color': 'black'}
+2025-09-13 23:59:59 | INFO | Received message from pet: horse
+2025-09-13 23:59:59 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 93, 'horse': 81, 'gerbil': 73, 'rabbit': 83}
+2025-09-14 00:00:00 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-14 00:00:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Alice', 'pet': 'goat', 'color': 'red'}
+2025-09-14 00:00:00 | INFO | Received message from pet: goat
+2025-09-14 00:00:00 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 94, 'horse': 81, 'gerbil': 73, 'rabbit': 83}
+2025-09-14 00:00:00 | WARNING | 🚨 ALERT: Goat detected! Total matches: 94
+2025-09-14 00:00:01 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:00:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Charlie', 'pet': 'goat', 'color': 'red'}
+2025-09-14 00:00:01 | INFO | Received message from pet: goat
+2025-09-14 00:00:01 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 95, 'horse': 81, 'gerbil': 73, 'rabbit': 83}
+2025-09-14 00:00:01 | WARNING | 🚨 ALERT: Goat detected! Total matches: 95
+2025-09-14 00:00:02 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-14 00:00:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-14 00:00:02 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:02 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 95, 'horse': 81, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:03 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:00:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Diana', 'pet': 'goat', 'color': 'orange'}
+2025-09-14 00:00:03 | INFO | Received message from pet: goat
+2025-09-14 00:00:03 | INFO | Updated pet counts: {'bird': 82, 'dog': 66, 'cat': 66, 'hamster': 96, 'goat': 96, 'horse': 81, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:03 | WARNING | 🚨 ALERT: Goat detected! Total matches: 96
+2025-09-14 00:00:04 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-14 00:00:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'dog', 'color': 'red'}
+2025-09-14 00:00:04 | INFO | Received message from pet: dog
+2025-09-14 00:00:04 | INFO | Updated pet counts: {'bird': 82, 'dog': 67, 'cat': 66, 'hamster': 96, 'goat': 96, 'horse': 81, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:05 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-14 00:00:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'dog', 'color': 'gray'}
+2025-09-14 00:00:05 | INFO | Received message from pet: dog
+2025-09-14 00:00:05 | INFO | Updated pet counts: {'bird': 82, 'dog': 68, 'cat': 66, 'hamster': 96, 'goat': 96, 'horse': 81, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:06 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 77}
+2025-09-14 00:00:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Bob', 'pet': 'horse', 'color': 'brown'}
+2025-09-14 00:00:06 | INFO | Received message from pet: horse
+2025-09-14 00:00:06 | INFO | Updated pet counts: {'bird': 82, 'dog': 68, 'cat': 66, 'hamster': 96, 'goat': 96, 'horse': 82, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:07 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-14 00:00:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'hamster', 'color': 'white'}
+2025-09-14 00:00:07 | INFO | Received message from pet: hamster
+2025-09-14 00:00:07 | INFO | Updated pet counts: {'bird': 82, 'dog': 68, 'cat': 66, 'hamster': 97, 'goat': 96, 'horse': 82, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:08 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-14 00:00:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Bob', 'pet': 'horse', 'color': 'cream'}
+2025-09-14 00:00:08 | INFO | Received message from pet: horse
+2025-09-14 00:00:08 | INFO | Updated pet counts: {'bird': 82, 'dog': 68, 'cat': 66, 'hamster': 97, 'goat': 96, 'horse': 83, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:09 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 69}
+2025-09-14 00:00:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'cat', 'color': 'blue'}
+2025-09-14 00:00:09 | INFO | Received message from pet: cat
+2025-09-14 00:00:09 | INFO | Updated pet counts: {'bird': 82, 'dog': 68, 'cat': 67, 'hamster': 97, 'goat': 96, 'horse': 83, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:10 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-14 00:00:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Bob', 'pet': 'bird', 'color': 'orange'}
+2025-09-14 00:00:10 | INFO | Received message from pet: bird
+2025-09-14 00:00:10 | INFO | Updated pet counts: {'bird': 83, 'dog': 68, 'cat': 67, 'hamster': 97, 'goat': 96, 'horse': 83, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:11 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 80}
+2025-09-14 00:00:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'horse', 'color': 'cream'}
+2025-09-14 00:00:11 | INFO | Received message from pet: horse
+2025-09-14 00:00:11 | INFO | Updated pet counts: {'bird': 83, 'dog': 68, 'cat': 67, 'hamster': 97, 'goat': 96, 'horse': 84, 'gerbil': 74, 'rabbit': 83}
+2025-09-14 00:00:12 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-14 00:00:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'pet': 'rabbit', 'color': 'cream'}
+2025-09-14 00:00:12 | INFO | Received message from pet: rabbit
+2025-09-14 00:00:12 | INFO | Updated pet counts: {'bird': 83, 'dog': 68, 'cat': 67, 'hamster': 97, 'goat': 96, 'horse': 84, 'gerbil': 74, 'rabbit': 84}
+2025-09-14 00:00:13 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:00:13 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-14 00:00:13 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:13 | INFO | Updated pet counts: {'bird': 83, 'dog': 68, 'cat': 67, 'hamster': 97, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 84}
+2025-09-14 00:00:14 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-14 00:00:14 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Bob', 'pet': 'hamster', 'color': 'gray'}
+2025-09-14 00:00:14 | INFO | Received message from pet: hamster
+2025-09-14 00:00:14 | INFO | Updated pet counts: {'bird': 83, 'dog': 68, 'cat': 67, 'hamster': 98, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 84}
+2025-09-14 00:00:15 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-14 00:00:15 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'dog', 'color': 'black'}
+2025-09-14 00:00:15 | INFO | Received message from pet: dog
+2025-09-14 00:00:15 | INFO | Updated pet counts: {'bird': 83, 'dog': 69, 'cat': 67, 'hamster': 98, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 84}
+2025-09-14 00:00:16 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:00:16 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'hamster', 'color': 'white'}
+2025-09-14 00:00:16 | INFO | Received message from pet: hamster
+2025-09-14 00:00:16 | INFO | Updated pet counts: {'bird': 83, 'dog': 69, 'cat': 67, 'hamster': 99, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 84}
+2025-09-14 00:00:17 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 81}
+2025-09-14 00:00:17 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Bob', 'pet': 'bird', 'color': 'black'}
+2025-09-14 00:00:17 | INFO | Received message from pet: bird
+2025-09-14 00:00:17 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 67, 'hamster': 99, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 84}
+2025-09-14 00:00:18 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 89}
+2025-09-14 00:00:18 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'rabbit', 'color': 'gray'}
+2025-09-14 00:00:18 | INFO | Received message from pet: rabbit
+2025-09-14 00:00:18 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 67, 'hamster': 99, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 85}
+2025-09-14 00:00:19 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 61}
+2025-09-14 00:00:19 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'cat', 'color': 'cream'}
+2025-09-14 00:00:19 | INFO | Received message from pet: cat
+2025-09-14 00:00:19 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 68, 'hamster': 99, 'goat': 96, 'horse': 84, 'gerbil': 75, 'rabbit': 85}
+2025-09-14 00:00:20 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-14 00:00:20 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'goat', 'color': 'brown'}
+2025-09-14 00:00:20 | INFO | Received message from pet: goat
+2025-09-14 00:00:20 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 68, 'hamster': 99, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 85}
+2025-09-14 00:00:20 | WARNING | 🚨 ALERT: Goat detected! Total matches: 97
+2025-09-14 00:00:21 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-14 00:00:21 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'hamster', 'color': 'cream'}
+2025-09-14 00:00:21 | INFO | Received message from pet: hamster
+2025-09-14 00:00:21 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 68, 'hamster': 100, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 85}
+2025-09-14 00:00:22 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 74}
+2025-09-14 00:00:22 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Diana', 'pet': 'rabbit', 'color': 'blue'}
+2025-09-14 00:00:22 | INFO | Received message from pet: rabbit
+2025-09-14 00:00:22 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 68, 'hamster': 100, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 86}
+2025-09-14 00:00:23 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-14 00:00:23 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Bob', 'pet': 'hamster', 'color': 'black'}
+2025-09-14 00:00:23 | INFO | Received message from pet: hamster
+2025-09-14 00:00:23 | INFO | Updated pet counts: {'bird': 84, 'dog': 69, 'cat': 68, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 86}
+2025-09-14 00:00:24 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-14 00:00:24 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'dog', 'color': 'orange'}
+2025-09-14 00:00:24 | INFO | Received message from pet: dog
+2025-09-14 00:00:24 | INFO | Updated pet counts: {'bird': 84, 'dog': 70, 'cat': 68, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 86}
+2025-09-14 00:00:25 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-14 00:00:25 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Alice', 'pet': 'dog', 'color': 'orange'}
+2025-09-14 00:00:25 | INFO | Received message from pet: dog
+2025-09-14 00:00:25 | INFO | Updated pet counts: {'bird': 84, 'dog': 71, 'cat': 68, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 86}
+2025-09-14 00:00:26 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-14 00:00:26 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Eve', 'pet': 'bird', 'color': 'cream'}
+2025-09-14 00:00:26 | INFO | Received message from pet: bird
+2025-09-14 00:00:26 | INFO | Updated pet counts: {'bird': 85, 'dog': 71, 'cat': 68, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 75, 'rabbit': 86}
+2025-09-14 00:00:27 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-14 00:00:27 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Diana', 'pet': 'gerbil', 'color': 'white'}
+2025-09-14 00:00:27 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:27 | INFO | Updated pet counts: {'bird': 85, 'dog': 71, 'cat': 68, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:28 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:00:28 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Charlie', 'pet': 'cat', 'color': 'white'}
+2025-09-14 00:00:28 | INFO | Received message from pet: cat
+2025-09-14 00:00:28 | INFO | Updated pet counts: {'bird': 85, 'dog': 71, 'cat': 69, 'hamster': 101, 'goat': 97, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:29 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-14 00:00:29 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'blue'}
+2025-09-14 00:00:29 | INFO | Received message from pet: hamster
+2025-09-14 00:00:29 | INFO | Updated pet counts: {'bird': 85, 'dog': 71, 'cat': 69, 'hamster': 102, 'goat': 97, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:30 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 71}
+2025-09-14 00:00:30 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Alice', 'pet': 'goat', 'color': 'black'}
+2025-09-14 00:00:30 | INFO | Received message from pet: goat
+2025-09-14 00:00:30 | INFO | Updated pet counts: {'bird': 85, 'dog': 71, 'cat': 69, 'hamster': 102, 'goat': 98, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:30 | WARNING | 🚨 ALERT: Goat detected! Total matches: 98
+2025-09-14 00:00:31 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-14 00:00:31 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'pet': 'bird', 'color': 'brown'}
+2025-09-14 00:00:31 | INFO | Received message from pet: bird
+2025-09-14 00:00:31 | INFO | Updated pet counts: {'bird': 86, 'dog': 71, 'cat': 69, 'hamster': 102, 'goat': 98, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:32 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 88}
+2025-09-14 00:00:32 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Bob', 'pet': 'bird', 'color': 'blue'}
+2025-09-14 00:00:32 | INFO | Received message from pet: bird
+2025-09-14 00:00:32 | INFO | Updated pet counts: {'bird': 87, 'dog': 71, 'cat': 69, 'hamster': 102, 'goat': 98, 'horse': 84, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:33 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-14 00:00:33 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Eve', 'pet': 'horse', 'color': 'blue'}
+2025-09-14 00:00:33 | INFO | Received message from pet: horse
+2025-09-14 00:00:33 | INFO | Updated pet counts: {'bird': 87, 'dog': 71, 'cat': 69, 'hamster': 102, 'goat': 98, 'horse': 85, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:34 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:00:34 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'cream'}
+2025-09-14 00:00:34 | INFO | Received message from pet: hamster
+2025-09-14 00:00:34 | INFO | Updated pet counts: {'bird': 87, 'dog': 71, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 85, 'gerbil': 76, 'rabbit': 86}
+2025-09-14 00:00:35 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-14 00:00:35 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'pet': 'gerbil', 'color': 'black'}
+2025-09-14 00:00:35 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:35 | INFO | Updated pet counts: {'bird': 87, 'dog': 71, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 85, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:36 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-14 00:00:36 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Charlie', 'pet': 'dog', 'color': 'cream'}
+2025-09-14 00:00:36 | INFO | Received message from pet: dog
+2025-09-14 00:00:36 | INFO | Updated pet counts: {'bird': 87, 'dog': 72, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 85, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:37 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:00:37 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Diana', 'pet': 'bird', 'color': 'orange'}
+2025-09-14 00:00:37 | INFO | Received message from pet: bird
+2025-09-14 00:00:37 | INFO | Updated pet counts: {'bird': 88, 'dog': 72, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 85, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:38 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 84}
+2025-09-14 00:00:38 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Diana', 'pet': 'bird', 'color': 'black'}
+2025-09-14 00:00:38 | INFO | Received message from pet: bird
+2025-09-14 00:00:38 | INFO | Updated pet counts: {'bird': 89, 'dog': 72, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 85, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:39 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 66}
+2025-09-14 00:00:39 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'pet': 'horse', 'color': 'gray'}
+2025-09-14 00:00:39 | INFO | Received message from pet: horse
+2025-09-14 00:00:39 | INFO | Updated pet counts: {'bird': 89, 'dog': 72, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 86, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:40 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 65}
+2025-09-14 00:00:40 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Eve', 'pet': 'dog', 'color': 'orange'}
+2025-09-14 00:00:40 | INFO | Received message from pet: dog
+2025-09-14 00:00:40 | INFO | Updated pet counts: {'bird': 89, 'dog': 73, 'cat': 69, 'hamster': 103, 'goat': 98, 'horse': 86, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:41 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:00:41 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'hamster', 'color': 'white'}
+2025-09-14 00:00:41 | INFO | Received message from pet: hamster
+2025-09-14 00:00:41 | INFO | Updated pet counts: {'bird': 89, 'dog': 73, 'cat': 69, 'hamster': 104, 'goat': 98, 'horse': 86, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:42 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:00:42 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Alice', 'pet': 'cat', 'color': 'red'}
+2025-09-14 00:00:42 | INFO | Received message from pet: cat
+2025-09-14 00:00:42 | INFO | Updated pet counts: {'bird': 89, 'dog': 73, 'cat': 70, 'hamster': 104, 'goat': 98, 'horse': 86, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:43 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-14 00:00:43 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'bird', 'color': 'brown'}
+2025-09-14 00:00:43 | INFO | Received message from pet: bird
+2025-09-14 00:00:43 | INFO | Updated pet counts: {'bird': 90, 'dog': 73, 'cat': 70, 'hamster': 104, 'goat': 98, 'horse': 86, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:44 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:00:44 | INFO | Sent message to topic 'buzzline_json': {'message': 'I love Python!', 'author': 'Bob', 'pet': 'horse', 'color': 'brown'}
+2025-09-14 00:00:44 | INFO | Received message from pet: horse
+2025-09-14 00:00:44 | INFO | Updated pet counts: {'bird': 90, 'dog': 73, 'cat': 70, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:45 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 65}
+2025-09-14 00:00:45 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'dog', 'color': 'orange'}
+2025-09-14 00:00:45 | INFO | Received message from pet: dog
+2025-09-14 00:00:45 | INFO | Updated pet counts: {'bird': 90, 'dog': 74, 'cat': 70, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:46 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-14 00:00:46 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Alice', 'pet': 'cat', 'color': 'blue'}
+2025-09-14 00:00:46 | INFO | Received message from pet: cat
+2025-09-14 00:00:46 | INFO | Updated pet counts: {'bird': 90, 'dog': 74, 'cat': 71, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:47 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-14 00:00:47 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'dog', 'color': 'brown'}
+2025-09-14 00:00:47 | INFO | Received message from pet: dog
+2025-09-14 00:00:47 | INFO | Updated pet counts: {'bird': 90, 'dog': 75, 'cat': 71, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:48 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-14 00:00:48 | INFO | Sent message to topic 'buzzline_json': {'message': 'Streaming data is fun.', 'author': 'Eve', 'pet': 'bird', 'color': 'orange'}
+2025-09-14 00:00:48 | INFO | Received message from pet: bird
+2025-09-14 00:00:48 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 71, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:49 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 67}
+2025-09-14 00:00:49 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'pet': 'cat', 'color': 'black'}
+2025-09-14 00:00:49 | INFO | Received message from pet: cat
+2025-09-14 00:00:49 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 72, 'hamster': 104, 'goat': 98, 'horse': 87, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:50 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:00:50 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'horse', 'color': 'brown'}
+2025-09-14 00:00:50 | INFO | Received message from pet: horse
+2025-09-14 00:00:50 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 72, 'hamster': 104, 'goat': 98, 'horse': 88, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:51 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-14 00:00:51 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'pet': 'cat', 'color': 'brown'}
+2025-09-14 00:00:51 | INFO | Received message from pet: cat
+2025-09-14 00:00:51 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 73, 'hamster': 104, 'goat': 98, 'horse': 88, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:52 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:00:52 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'white'}
+2025-09-14 00:00:52 | INFO | Received message from pet: hamster
+2025-09-14 00:00:52 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 73, 'hamster': 105, 'goat': 98, 'horse': 88, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:53 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 62}
+2025-09-14 00:00:53 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Charlie', 'pet': 'horse', 'color': 'red'}
+2025-09-14 00:00:53 | INFO | Received message from pet: horse
+2025-09-14 00:00:53 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 73, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 77, 'rabbit': 86}
+2025-09-14 00:00:54 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 68}
+2025-09-14 00:00:54 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Bob', 'pet': 'gerbil', 'color': 'black'}
+2025-09-14 00:00:54 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:54 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 73, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 78, 'rabbit': 86}
+2025-09-14 00:00:55 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 73}
+2025-09-14 00:00:55 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'cat', 'color': 'black'}
+2025-09-14 00:00:55 | INFO | Received message from pet: cat
+2025-09-14 00:00:55 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 74, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 78, 'rabbit': 86}
+2025-09-14 00:00:56 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-14 00:00:56 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'gerbil', 'color': 'gray'}
+2025-09-14 00:00:56 | INFO | Received message from pet: gerbil
+2025-09-14 00:00:56 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 74, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:00:57 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:00:57 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'cat', 'color': 'brown'}
+2025-09-14 00:00:57 | INFO | Received message from pet: cat
+2025-09-14 00:00:57 | INFO | Updated pet counts: {'bird': 91, 'dog': 75, 'cat': 75, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:00:58 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 86}
+2025-09-14 00:00:58 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Diana', 'pet': 'bird', 'color': 'brown'}
+2025-09-14 00:00:58 | INFO | Received message from pet: bird
+2025-09-14 00:00:58 | INFO | Updated pet counts: {'bird': 92, 'dog': 75, 'cat': 75, 'hamster': 105, 'goat': 98, 'horse': 89, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:00:59 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 78}
+2025-09-14 00:00:59 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'horse', 'color': 'red'}
+2025-09-14 00:00:59 | INFO | Received message from pet: horse
+2025-09-14 00:00:59 | INFO | Updated pet counts: {'bird': 92, 'dog': 75, 'cat': 75, 'hamster': 105, 'goat': 98, 'horse': 90, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:00 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:01:00 | INFO | Opening data file in read mode: PROJECT_ROOT/data/buzz.json
+2025-09-14 00:01:00 | INFO | Reading data from file: PROJECT_ROOT/data/buzz.json
+2025-09-14 00:01:00 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Eve', 'pet': 'bird', 'color': 'blue'}
+2025-09-14 00:01:00 | INFO | Received message from pet: bird
+2025-09-14 00:01:00 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 105, 'goat': 98, 'horse': 90, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:01 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 93}
+2025-09-14 00:01:01 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Alice', 'pet': 'hamster', 'color': 'gray'}
+2025-09-14 00:01:01 | INFO | Received message from pet: hamster
+2025-09-14 00:01:01 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 106, 'goat': 98, 'horse': 90, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:02 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 82}
+2025-09-14 00:01:02 | INFO | Sent message to topic 'buzzline_json': {'message': 'Have a great day!', 'author': 'Charlie', 'pet': 'goat', 'color': 'blue'}
+2025-09-14 00:01:02 | INFO | Received message from pet: goat
+2025-09-14 00:01:02 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 106, 'goat': 99, 'horse': 90, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:02 | WARNING | 🚨 ALERT: Goat detected! Total matches: 99
+2025-09-14 00:01:03 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:01:03 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Alice', 'pet': 'goat', 'color': 'orange'}
+2025-09-14 00:01:03 | INFO | Received message from pet: goat
+2025-09-14 00:01:03 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 106, 'goat': 100, 'horse': 90, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:03 | WARNING | 🚨 ALERT: Goat detected! Total matches: 100
+2025-09-14 00:01:04 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-14 00:01:04 | INFO | Sent message to topic 'buzzline_json': {'message': 'Distributed systems are fascinating.', 'author': 'Diana', 'pet': 'horse', 'color': 'blue'}
+2025-09-14 00:01:04 | INFO | Received message from pet: horse
+2025-09-14 00:01:04 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 106, 'goat': 100, 'horse': 91, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:05 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 87}
+2025-09-14 00:01:05 | INFO | Sent message to topic 'buzzline_json': {'message': 'Buzz messages for everyone.', 'author': 'Alice', 'pet': 'horse', 'color': 'gray'}
+2025-09-14 00:01:05 | INFO | Received message from pet: horse
+2025-09-14 00:01:05 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 106, 'goat': 100, 'horse': 92, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:06 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-14 00:01:06 | INFO | Sent message to topic 'buzzline_json': {'message': 'Hello, Kafka world!', 'author': 'Diana', 'pet': 'hamster', 'color': 'blue'}
+2025-09-14 00:01:06 | INFO | Received message from pet: hamster
+2025-09-14 00:01:06 | INFO | Updated pet counts: {'bird': 93, 'dog': 75, 'cat': 75, 'hamster': 107, 'goat': 100, 'horse': 92, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:07 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:01:07 | INFO | Sent message to topic 'buzzline_json': {'message': 'This is a buzz message.', 'author': 'Eve', 'pet': 'dog', 'color': 'gray'}
+2025-09-14 00:01:07 | INFO | Received message from pet: dog
+2025-09-14 00:01:07 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 75, 'hamster': 107, 'goat': 100, 'horse': 92, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:08 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:01:08 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Eve', 'pet': 'hamster', 'color': 'black'}
+2025-09-14 00:01:08 | INFO | Received message from pet: hamster
+2025-09-14 00:01:08 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 75, 'hamster': 108, 'goat': 100, 'horse': 92, 'gerbil': 79, 'rabbit': 86}
+2025-09-14 00:01:09 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 64}
+2025-09-14 00:01:09 | INFO | Logging to file: logs/project_log.log
+2025-09-14 00:01:09 | INFO | Log sanitization enabled, personal info removed
+2025-09-14 00:01:09 | INFO | START consumer.
+2025-09-14 00:01:09 | INFO | Kafka topic: pool_temps
+2025-09-14 00:01:09 | INFO | Kafka consumer group id: pool_monitor_group
+2025-09-14 00:01:09 | INFO | Rolling window size: 5
+2025-09-14 00:01:09 | INFO | Consumer: Topic 'pool_temps' and group 'pool_monitor_group'...
+2025-09-14 00:01:09 | INFO | Rolling window size: 5
+2025-09-14 00:01:09 | INFO | Kafka broker address: localhost:9092
+2025-09-14 00:01:09 | INFO | Creating Kafka consumer. Topic='pool_temps' and group ID='pool_monitor_group'.
+2025-09-14 00:01:09 | INFO | Kafka consumer created successfully.
+2025-09-14 00:01:09 | INFO | Polling messages from topic 'pool_temps'...
+2025-09-14 00:01:09 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Alice', 'pet': 'gerbil', 'color': 'brown'}
+2025-09-14 00:01:09 | INFO | Received message from pet: gerbil
+2025-09-14 00:01:09 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 75, 'hamster': 108, 'goat': 100, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:10 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-14 00:01:10 | INFO | Sent message to topic 'buzzline_json': {'message': 'Data engineering is my passion.', 'author': 'Diana', 'pet': 'cat', 'color': 'red'}
+2025-09-14 00:01:10 | INFO | Received message from pet: cat
+2025-09-14 00:01:10 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 76, 'hamster': 108, 'goat': 100, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:11 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-14 00:01:11 | INFO | Sent message to topic 'buzzline_json': {'message': 'JSON makes life easier.', 'author': 'Diana', 'pet': 'goat', 'color': 'gray'}
+2025-09-14 00:01:12 | INFO | Received message from pet: goat
+2025-09-14 00:01:12 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 76, 'hamster': 108, 'goat': 101, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:12 | WARNING | 🚨 ALERT: Goat detected! Total matches: 101
+2025-09-14 00:01:12 | INFO | Sent message to topic 'pool_temps': {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 97}
+2025-09-14 00:01:12 | INFO | Sent message to topic 'buzzline_json': {'message': 'Kafka is awesome.', 'author': 'Charlie', 'pet': 'hamster', 'color': 'white'}
+2025-09-14 00:01:12 | INFO | Received message from pet: hamster
+2025-09-14 00:01:12 | INFO | Updated pet counts: {'bird': 93, 'dog': 76, 'cat': 76, 'hamster': 109, 'goat': 101, 'horse': 92, 'gerbil': 80, 'rabbit': 86}
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 75}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 99}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 60°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 92}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 96}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 79}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 60}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 60°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 83}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 76}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 90}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 91}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 85}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 95}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 63}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 63°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 63}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | WARNING | LOW TEMPERATURE ALERT at 2025-09-14T02:49:44.345756: 63°F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 98}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 84}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 74}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Max stall temperature range: 2.0 F
+2025-09-14 00:01:13 | INFO | Processed JSON message: {'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 72}
+2025-09-14 00:01:13 | INFO | Rolling window size: 5
+2025-09-14 00:01:13 | INFO | Rolling window size: 5

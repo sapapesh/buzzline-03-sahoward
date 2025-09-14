@@ -1,10 +1,10 @@
 """
-csv_consumer_case.py
+csv_consumer_sahoward.py
 
 Consume json messages from a Kafka topic and process them.
 
 Example Kafka message format:
-{"timestamp": "2025-01-11T18:15:00Z", "temperature": 225.0}
+{'timestamp': '2025-09-14T02:49:44.345756', 'temperature': 70}
 
 """
 
@@ -41,29 +41,28 @@ load_dotenv()
 
 
 def get_kafka_topic() -> str:
-    """Fetch Kafka topic from environment or use default."""
-    topic = os.getenv("SMOKER_TOPIC", "unknown_topic")
+    topic = os.getenv("POOL_TOPIC", "unknown_topic")
     logger.info(f"Kafka topic: {topic}")
     return topic
 
 
 def get_kafka_consumer_group_id() -> str:
     """Fetch Kafka consumer group id from environment or use default."""
-    group_id: str = os.getenv("SMOKER_CONSUMER_GROUP_ID", "default_group")
+    group_id: str = os.getenv("POOL_CONSUMER_GROUP_ID", "default_group")
     logger.info(f"Kafka consumer group id: {group_id}")
     return group_id
 
 
 def get_stall_threshold() -> float:
     """Fetch message interval from environment or use default."""
-    temp_variation = float(os.getenv("SMOKER_STALL_THRESHOLD_F", 0.2))
+    temp_variation = float(os.getenv("POOL_STALL_THRESHOLD_F", 2))
     logger.info(f"Max stall temperature range: {temp_variation} F")
     return temp_variation
 
 
 def get_rolling_window_size() -> int:
     """Fetch rolling window size from environment or use default."""
-    window_size = int(os.getenv("SMOKER_ROLLING_WINDOW_SIZE", 5))
+    window_size = int(os.getenv("POOL_ROLLING_WINDOW_SIZE", 5))
     logger.info(f"Rolling window size: {window_size}")
     return window_size
 
@@ -109,7 +108,8 @@ def detect_stall(rolling_window_deque: deque) -> bool:
 
 def process_message(message: str, rolling_window: deque, window_size: int) -> None:
     """
-    Process a JSON-transferred CSV message and check for stalls.
+    Process a JSON-transferred CSV message and check for stalls
+    and temperatures below 70°F.
 
     Args:
         message (str): JSON message received from Kafka.
@@ -139,6 +139,10 @@ def process_message(message: str, rolling_window: deque, window_size: int) -> No
             logger.info(
                 f"STALL DETECTED at {timestamp}: Temp stable at {temperature}°F over last {window_size} readings."
             )
+
+        # Check if temperature is below 70°F
+        if temperature < 70:
+            logger.warning(f"LOW TEMPERATURE ALERT at {timestamp}: {temperature}°F")
 
     except json.JSONDecodeError as e:
         logger.error(f"JSON decoding error for message '{message}': {e}")
